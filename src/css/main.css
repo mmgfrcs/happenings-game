@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Catamaran', sans-serif;
+}
+
+h1 {
+  @apply text-3xl mb-4;
+}
+
+h2 {
+  @apply text-2xl mb-3;
+}
+
+h3 {
+  @apply text-xl mb-2;
+}
+
+p {
+  @apply mb-3;
+}
+
+.container {
+  @apply pt-8 pb-8;
+}
+
+.card {
+  @apply rounded-lg p-6 mb-2;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.card.list {
+  @apply rounded-md;
+  max-width: 256px;
+  
+}
+
+.portrait {
+  @apply mb-4;
+  width: 256px;
+}
+
+.avatar {
+  @apply rounded-full;
+  width: 48px;
+  height: 48px;
+  display: inline;
+  
+}

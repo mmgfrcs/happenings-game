@@ -1,0 +1,19 @@
+{
+  "name": "happenings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm-run-all --parallel dev go",
+    "dev": "tailwindcss -i ./src/css/main.css -o ./res/public/css/main.css --watch",
+    "go": "make run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "tailwindcss": "^3.1.8"
+  }
+}

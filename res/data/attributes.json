@@ -1,0 +1,9 @@
+[
+  {
+    "short": "HLT",
+    "name": "Health",
+    "desc": "The state of %s's well-being",
+    "range": -1,
+    "critical": true
+  }
+]
