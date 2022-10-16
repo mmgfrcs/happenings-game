@@ -1,4 +1,4 @@
-package entities
+package data
 
 type Attribute struct {
 	ShortName   string `json:"short"`
@@ -6,4 +6,5 @@ type Attribute struct {
 	Description string `json:"desc"`
 	Range       int16  `json:"range"`
 	Critical    bool   `json:"critical"`
+	Value       int16
 }

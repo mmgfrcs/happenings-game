@@ -1,10 +1,9 @@
 package util
 
-import {
-  "main/entities"
-}
+import (
+	"main/data"
+)
 
 type HomeData struct {
-  Characters []entities.Character
-  Attributes []entities.Attribute
+	Characters []data.Character
 }

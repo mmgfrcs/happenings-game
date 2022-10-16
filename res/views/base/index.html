@@ -1,11 +1,8 @@
 <h1 class="m-2">Select a Character to Begin</h1>
 <div class="flex flex-row gap-4 items-center justify-center flex-wrap">
+  {{ range .Characters }}
     {{template "character-card.html" .}}
-    {{template "character-card.html" .}}
-      {{template "character-card.html" .}}
-    {{template "character-card.html" .}}
-      {{template "character-card.html" .}}
-    {{template "character-card.html" .}}
+  {{ end }}
 </div>
 <div class="flex flex-col gap-4">
     {{template "game-card.html" .}}

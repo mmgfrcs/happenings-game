@@ -1,33 +1,17 @@
 <div class="flex-none card list">
   <header class="mb-4">
-    <img class="portrait" src="/assets/img/portraits/ellie.png"/>
-    <h2>Ellie</h2>
+    <img class="portrait" src="/assets/img/portraits/{{.ID}}.png"/>
+    <h2>{{.Name}}</h2>
   </header>
   <p>{{.Description}}</p>
   <div class="grid stat-container">
-    <div class="grid grid-cols-4 gap-4">
-      <div><strong>HLT</strong></div>
-      <div class="text-right">44</div>
-      <div><strong>DEX</strong></div>
-      <div class="text-right">44</div>
-    </div>
-    <div class="grid grid-cols-4 gap-4">
-      <div><strong>STR</strong></div>
-      <div class="text-right">44</div>
-      <div><strong>INT</strong></div>
-      <div class="text-right">44</div>
-    </div>
-    <div class="grid grid-cols-4 gap-4">
-      <div><strong>AGI</strong></div>
-      <div class="text-right">44</div>
-      <div><strong>WIS</strong></div>
-      <div class="text-right">44</div>
-    </div>
-    <div class="grid grid-cols-4 gap-4">
-      <div><strong>CON</strong></div>
-      <div class="text-right">44</div>
-      <div><strong>PAT</strong></div>
-      <div class="text-right">44</div>
+    
+    <div class="grid grid-cols-4 gap-x-4">
+      {{ range .Attributes }}
+        <div><strong>{{.ShortName}}</strong></div>
+        <div class="text-right">{{.Value}}</div>
+        
+      {{ end }}
     </div>
   </div>
 
