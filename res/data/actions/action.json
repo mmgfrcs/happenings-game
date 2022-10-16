@@ -1,0 +1,26 @@
+[
+  {
+    "id": "A-HLT-0001",
+    "name": "Slightly Sick",
+    "desc": "%s is feeling under the weather",
+    "tags": ["health"],
+    "mod": [
+      {
+        "id": "HLT",
+        "mod": -6
+      }
+    ]
+  },
+  {
+    "id": "A-HLT-0002",
+    "name": "Sick",
+    "desc": "%s is feeling sick",
+    "tags": ["health"],
+    "mod": [
+      {
+        "id": "HLT",
+        "mod": -15
+      }
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "short": "STR",
+  "name": "Strength",
+  "desc": "%s's physical strength and prowess.",
+  "range": 0,
+  "critical": false
+}

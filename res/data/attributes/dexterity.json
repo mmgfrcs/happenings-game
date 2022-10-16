@@ -1,0 +1,7 @@
+{
+  "short": "DEX",
+  "name": "Dexterity",
+  "desc": "%s's physical speed and nimbleness.",
+  "range": 0,
+  "critical": false
+}

@@ -1,0 +1,7 @@
+{
+  "short": "CON",
+  "name": "Constitution",
+  "desc": "%s's physical resilience and resistance.",
+  "range": 0,
+  "critical": false
+}

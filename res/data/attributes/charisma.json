@@ -1,0 +1,7 @@
+{
+  "short": "CHA",
+  "name": "Charisma",
+  "desc": "%s's social capabilities.",
+  "range": 0,
+  "critical": false
+}

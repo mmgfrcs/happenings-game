@@ -1,0 +1,14 @@
+{
+  "id": "ellie",
+  "name": "Ellie",
+  "desc": "Lorem ipsum",
+  "attributes": {
+    "HLT": 40,
+    "STR": 40,
+    "CON": 25,
+    "DEX": 60,
+    "INT": 50,
+    "WIS": 80,
+    "CHA": 30
+  }
+}

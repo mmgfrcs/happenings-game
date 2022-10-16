@@ -1,0 +1,7 @@
+{
+  "short": "INT",
+  "name": "Intelligence",
+  "desc": "%s's mental strength and prowess.",
+  "range": 0,
+  "critical": false
+}

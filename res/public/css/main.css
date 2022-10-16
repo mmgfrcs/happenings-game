@@ -587,6 +587,10 @@ video {
   }
 }
 
+.m-2 {
+  margin: 0.5rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
