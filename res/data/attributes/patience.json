@@ -1,0 +1,7 @@
+{
+  "short": "PAT",
+  "name": "Patience",
+  "desc": "%s's level of patience.",
+  "range": 0,
+  "critical": false
+}

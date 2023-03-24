@@ -1,0 +1,13 @@
+<div class="border border-gray-700 rounded-lg p-4">
+  <p class="mb-2">
+   You wanted to do X. The thing is, you do not know what X is.
+  </p>
+  <p class="mb-2">
+   You can guess, but guess wrong and there it goes.
+  </p>
+  <div class="flex flex-1 gap-4 justify-center">
+    <a class="w-full rounded px-3 py-1 border border-green-400 text-green-400 text-center hover:border-green-600 hover:text-green-600 transition" href="/start/{{ .ID }}/?action=0">Accept</a>
+    <a class="w-full rounded px-3 py-1 border border-red-400 text-red-400 text-center hover:border-red-600 hover:text-red-600 transition" href="/start/{{ .ID }}/?action=1">Deny</a>
+  </div>
+  
+</div>

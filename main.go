@@ -6,7 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello, World!")
 	app := gin.Default()
 
 	InitRoutes(app)

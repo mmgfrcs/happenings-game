@@ -1,3 +1,5 @@
+{{template "header.html" .}}
+
 <h1 class="m-2">Select a Character to Begin</h1>
 <div class="flex flex-row gap-4 items-center justify-center flex-wrap">
   {{ range .Characters }}
@@ -8,3 +10,12 @@
     {{template "game-card.html" .}}
     {{template "game-card.html" .}}
 </div>
+
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.12.0/dist/cdn.min.js"></script>
+<script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+<script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+<script>
+  tippy('[data-tippy-content]', {offset: [0, -70], followCursor: 'horizontal'})
+</script>
+
+{{template "footer.html" .}}

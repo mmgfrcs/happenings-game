@@ -5,5 +5,5 @@ import (
 )
 
 type HomeData struct {
-	Characters []data.Character
+	Characters map[string]data.Character
 }

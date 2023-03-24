@@ -1,0 +1,7 @@
+{
+  "short": "MOR",
+  "name": "Morale",
+  "desc": "%s's will to live.",
+  "range": -1,
+  "critical": true
+}
