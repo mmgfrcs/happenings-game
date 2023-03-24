@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+
 	"github.com/gin-gonic/gin"
 )
 
@@ -10,5 +11,5 @@ func main() {
 
 	InitRoutes(app)
 
-	fmt.Println(app.Run(":4848"))
+	fmt.Println(app.Run())
 }

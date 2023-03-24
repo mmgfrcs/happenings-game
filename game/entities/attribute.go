@@ -1,4 +1,4 @@
-package data
+package entities
 
 type Attribute struct {
 	ShortName   string `json:"short"`

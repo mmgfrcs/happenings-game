@@ -1,4 +1,4 @@
-package entities
+package data
 
 type Character struct {
 	ID          string           `json:"id"`

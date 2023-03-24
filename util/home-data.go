@@ -1,9 +1,9 @@
 package util
 
 import (
-	"main/data"
+	"github.com/mmgfrcs/happenings-game/game/entities"
 )
 
 type HomeData struct {
-	Characters map[string]data.Character
+	Characters map[string]entities.Character
 }
